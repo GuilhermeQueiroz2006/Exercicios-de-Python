@@ -1,0 +1,10 @@
+from time import sleep
+print('CIDADES SANTO')
+sleep(1)
+print('Vamos ver se você nasceu em uma cidade que tenha SANTO em seu nome')
+sleep(1)
+cid = str(input('Digite sua cidade de nascimento: '))
+C = cid.upper()
+print('Analisando...')
+sleep(2)
+print('SANTO' in C)
